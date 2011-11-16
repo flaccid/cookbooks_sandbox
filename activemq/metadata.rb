@@ -24,7 +24,7 @@ attribute "activemq/mirror",
 attribute "activemq/version",
   :display_name => "ActiveMQ version",
   :description => "ActiveMQ version to install.",
-  :default => "5.5.0",
+  :default => "5.5.1",
   :recipes => [ "activemq::default" ]
 
 attribute "activemq/home",
