@@ -1,7 +1,7 @@
 rightscale_marker :begin
 
 repo "default" do
-    destination deploy_dir
+    destination '/var/www'
     action node[:repo][:default][:perform_action].to_sym
     app_user node[:app][:user]
     repository node[:repo][:default][:repository]
