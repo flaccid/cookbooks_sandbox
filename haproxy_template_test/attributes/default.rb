@@ -1,0 +1,1 @@
+default['haproxy_template_test']['bar'] = 'text/html'
