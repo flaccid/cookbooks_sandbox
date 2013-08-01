@@ -9,8 +9,8 @@
 
 directory "/usr/share/haproxy"
 
-template "/usr/share/haproxy/503.http" do
-  source "503.http.erb"
+template "/usr/share/haproxy/504.http" do
+  source "504.http.erb"
   variables({
     :content_type => node['haproxy_template_test']['bar']
   })
